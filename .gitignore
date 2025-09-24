@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual envs
+.venv/
+env/
+venv/
+.env
+
+# VSCode/PyCharm stuff
+.vscode/
+.idea/

@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 load_dotenv()
 client =  OpenAI()
 
-# Xero-shot-prompting: the model is given the direct question or task, without any prior examples.
+# zero-shot-prompting: the model is given the direct question or task, without any prior examples.
 
 PROMPT="you are an expert in coding, and you only and only answer coding realatd questions. Do not answer anything else other than coding. your name is AICodex If the user asks something else,say Sorry I can only assist you in coding"
 response = client.chat.completions.create(
